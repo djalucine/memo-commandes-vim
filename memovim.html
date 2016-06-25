@@ -8,8 +8,22 @@
     </head>
   <body>
   <h1> Memo des Commandes VIM  </h1> <!--basic structure html page & title-->
+  <p>
 
-  <h2>Mouvement du curseur</h2><!--first part's title-->
+       <br />
+
+      <a href="#curseur"> Mouvement du curseur</a><br />
+      <a href="#insertion"> Mode insertion- insérer/ajouter du texte </a><br />
+      <a href="#ed">Éditer </a><br />
+      <a href="#mdetexte"> Marquer du texte (mode visuel)</a><br />
+      <a href="#cmvisuel"> Commandes du mode visuel</a><br />
+      <a href="#col">Copier-Coller </a><br />
+      <a href="#Q">Quitter </a><br />
+
+
+
+  </p>
+  <h2 id="curseur">Mouvement du curseur</h2><!--first part's title-->
   <ul>
     <li>h - déplacer le curseur vers la gauche</li>
     <li>j - déplacer le curseur vers le bas</li>
@@ -39,7 +53,7 @@
 </ul>
 <!--first part commands list-->
 
-<h2>Mode insertion - insérer/ajouter du texte</h2>
+<h2 id="insertion">Mode insertion - insérer/ajouter du texte</h2>
       <ul>
             <li> - insérer avant le curseur</li>
             <li>I - insérer au début de la ligne</li>
@@ -52,7 +66,7 @@
             </ul>
             <!--2° part'title & commands list-->
 
-            <h2>Éditer</h2>
+            <h2 id="ed">Éditer</h2>
             <ul>
               <li>r - remplacer un caractère</li>
               <li>J - joindre la ligne suivante à la ligne en cours</li>
@@ -68,7 +82,7 @@
             </ul>
             <!--3° part'title & commands list-->
 
-            <h2>Marquer du texte (mode visuel)</h2>
+            <h2 id="mdtexte">Marquer du texte (mode visuel)</h2>
             <ul>
               <li>v - passer en mode visuel, marquer du texte, exécuter des commandes (comme y)</li>
               <li>V - passer en mode visuel ligne par ligne</li>
@@ -84,7 +98,7 @@
               <!--4° part'title & commands list-->
             </ul>
 
-            <h2>Commandes du mode visuel</h2>
+            <h2 id="cmvisuel">Commandes du mode visuel</h2>
             <ul>
               <li>&#62; - décaler le texte vers la droite</li>
               <li>&#60; - décaler le texte vers la gauche</li>
@@ -93,7 +107,7 @@
               <li>~ - modifier la casse</li>
             </ul><!--5° part'title & commands list-->
 
-            <h2>Copier-coller</h2>
+            <h2 id="col">Copier-Coller</h2>
             <ul>
               <li>yy - copier un ligne</li>
               <li>2yy - copier 2 lignes</li>
@@ -109,8 +123,8 @@
               <li> x - supprimer (couper) un caractère</li>
             </ul>
             <!--6° part'title & commands list-->
-            
-            <h2>Quitter</h2>
+
+            <h2 id="Q">Quitter</h2>
             <ul>
               <li>:w - écrire (sauver) le fichier</li>
               <li>:w !sudo tee % - write out the current file using sudo</li>
