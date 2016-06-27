@@ -1,19 +1,19 @@
 h1
 {
   color: blue;
-  text-align :center;
+  text-align :center; /* Tous les éléments h1 seront bleus et centrés*/
 }
 h2
 {
   color: blue;
-  text-align :left;
+  text-align :left; /* Tous les éléments h2 seront bleus et alignés à gauche */
 }
 html
 
-{ background-image: url("fontvim.jpg")
+{ background-image: url("fontvim.jpg") /* Toute la zone htmt aura pour fond l image fontvim */
 }
 body
  {
-  text-align:left;
+  text-align:left; /* Tout le texte du body sera aligné à gauche
 
 }
